@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hideMenu {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+
+  .hideMenu {
+    display: block;
+  }
+}

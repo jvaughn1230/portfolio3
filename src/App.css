@@ -2,3 +2,28 @@
   --primary: rgb(21, 161, 169);
   --secondary: rgb(248, 249, 250);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.app {
+  padding-inline: 2.5rem;
+  background-color: var(--primary);
+}
+
+.section {
+  min-height: 100vh;
+}
